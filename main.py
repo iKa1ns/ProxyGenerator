@@ -48,7 +48,6 @@ class ProxyGen:
                     else:
                         self.d[proxy] = 1
             except Exception as ex:
-                print(ex)
                 continue
 
     def generate_proxy(self, file_to_export=None, count_of_proxy=None, timeout=5, mass=None) -> None:
